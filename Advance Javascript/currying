@@ -1,0 +1,15 @@
+// Currying in JavaScript
+// Currying is a process in functional programming in which we can transform a function with multiple arguments into a sequence of nesting functions. It returns a new function that expects the next argument inline.
+
+// In other words, when a function, instead of taking all arguments at one time, takes the first one and return a new function that takes the second one and returns a new function which takes the third one, and so forth, until all arguments have been fulfilled.
+
+// That is, when we turn a function call sum(1,2,3) into sum(1)(2)(3)
+
+// The number of arguments a function takes is also called arity.
+
+// Currying
+
+
+// const sum = (num1) => (num2) => (num3) => console.log(num1+num2+num3); 
+
+// sum(5)(3)(8);
